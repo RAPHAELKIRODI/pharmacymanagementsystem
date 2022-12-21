@@ -1,0 +1,51 @@
+		h5{
+			color: red;
+		}
+
+
+
+				 p{
+    color: black;
+    font-size: 15px;
+    background-color: rgba();
+}
+h6{
+  text-align: center;
+  color: black;/*
+  background-color: blue;*/
+}
+
+a{
+ width: 15%;
+  padding: 2px 5px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 3.6px solid green;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: rgba(95,99,255,0.5);
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  background-color: rgba(95,99,255,0.5);
+  font-family: "Times New Roman",Times,Serif;
+   font-style: italic;
+}
+body{
+  background-color: rgba(0,100,40,0.5);
+}
+.try{
+  color: black;
+  margin: auto;
+  border: 3.6px solid green;
+}
+
+
+
+
+

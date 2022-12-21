@@ -1,0 +1,37 @@
+.container
+{
+	width:60%;
+	height: auto;
+	display: flex;
+	overflow: hidden;
+}
+/*body
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 1300px;
+	height: 100vh;
+}*/
+.img1
+{
+	transition:1s;
+}
+
+#radio1:checked ~ .img1
+{
+	margin-left: 0;
+}
+#radio2:checked ~ .img1
+{
+	margin-left: -300px;
+}
+#radio3:checked ~ .img1
+{
+	margin-left: -600px;
+}
+
+#radio1,#radio2,#radio3
+{
+	display: none;
+}

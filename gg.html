@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="container">
+	
+	<input type="radio" name="rr" id="radio1">
+	<input type="radio"  name="rr" id="radio2">
+	<input type="radio" name="rr" id="radio3">
+
+<div class="img1">
+	<img src="./image/picture1.png" width="300px" height="auto">
+</div>
+<div>
+	<img src="./image/picture2.png" width="300px" height="auto">
+</div>
+<div>
+	<img src="./image/picture3.png" width="300px" height="auto">
+</div>
+</div>
+
+</body>
+<script type="text/javascript">
+	var x=1;
+	setInterval(function(){
+		document.getElementById('radio'+x).checked=true;
+		console.log(x);
+		x++;
+		if(x>3)
+		{
+			x=1;
+		}
+	},3000)
+</script>
+</html>
